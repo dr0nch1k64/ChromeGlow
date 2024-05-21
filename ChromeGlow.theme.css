@@ -1,0 +1,184 @@
+/**
+* @name ChromeGlow
+* @author dr0nch1k_gs64
+* @description A new look to discord
+* @version 1.0
+* @authorId 278543574059057154
+*/
+
+html:only-child > head + body div.typeWindows_e41dab.titleBar__710b0 > div.wordmark__5b8c9::before {
+	content: "" !important;
+	background: rgb(255, 255, 255, 0.7) !important;
+	-webkit-mask: url('data:image/svg+xml; utf8, <svg width="55" height="19" version="1.1" xmlns="http://www.w3.org/2000/svg"><path fill="black" d="M3.57642276,0.141304348 L0,0.141304348 L0,4.22826087 L2.38069106,6.40217391 L2.38069106,2.43478261 L3.66260163,2.43478261 C4.47052846,2.43478261 4.86910569,2.83695652 4.86910569,3.4673913 L4.86910569,6.5 C4.86910569,7.13043478 4.49207317,7.55434783 3.66260163,7.55434783 L0,7.55434783 L0,9.85869565 L3.57642276,9.85869565 C5.49390244,9.86956522 7.29288618,8.90217391 7.29288618,6.66304348 L7.29288618,3.39130435 C7.29288618,1.13043478 5.49390244,0.141304348 3.57642276,0.141304348 Z M22.3310976,6.67391304 L22.3310976,3.32608696 C22.3310976,2.11956522 24.4640244,1.83695652 25.1103659,3.05434783 L27.0817073,2.23913043 C26.3168699,0.510869565 24.8949187,0 23.7207317,0 C21.803252,0 19.9073171,1.13043478 19.9073171,3.32608696 L19.9073171,6.67391304 C19.9073171,8.88043478 21.803252,10 23.6776423,10 C24.8841463,10 26.3276423,9.39130435 27.1247967,7.81521739 L25.0134146,6.82608696 C24.4963415,8.17391304 22.3310976,7.84782609 22.3310976,6.67391304 Z M15.8030488,3.7826087 C15.0597561,3.61956522 14.5642276,3.34782609 14.5319106,2.88043478 C14.575,1.75 16.2878049,1.7173913 17.2896341,2.79347826 L18.8731707,1.55434783 C17.8821138,0.326086957 16.7617886,0 15.598374,0 C13.8424797,0 12.1404472,1 12.1404472,2.91304348 C12.1404472,4.77173913 13.5408537,5.76086957 15.0813008,6 C15.8676829,6.10869565 16.7402439,6.42391304 16.7186992,6.97826087 C16.654065,8.02173913 14.5426829,7.9673913 13.5839431,6.7826087 L12.0650407,8.23913043 C12.9591463,9.40217391 14.1764228,10 15.3182927,10 C17.074187,10 19.0239837,8.9673913 19.0993902,7.08695652 C19.2071138,4.69565217 17.5050813,4.09782609 15.8030488,3.7826087 Z M8.59634146,9.85869565 L11.0093496,9.85869565 L11.0093496,0.141304348 L8.59634146,0.141304348 L8.59634146,9.85869565 Z M49.2835366,0.141304348 L45.7071138,0.141304348 L45.7071138,4.22826087 L48.0878049,6.40217391 L48.0878049,2.43478261 L49.3589431,2.43478261 C50.1668699,2.43478261 50.5654472,2.83695652 50.5654472,3.4673913 L50.5654472,6.5 C50.5654472,7.13043478 50.1884146,7.55434783 49.3589431,7.55434783 L45.6963415,7.55434783 L45.6963415,9.85869565 L49.2727642,9.85869565 C51.1902439,9.86956522 52.9892276,8.90217391 52.9892276,6.66304348 L52.9892276,3.39130435 C53,1.13043478 51.2010163,0.141304348 49.2835366,0.141304348 Z M31.7353659,0 C29.753252,0 27.7819106,1.09782609 27.7819106,3.33695652 L27.7819106,6.66304348 C27.7819106,8.89130435 29.7640244,10 31.7569106,10 C33.7390244,10 35.7103659,8.89130435 35.7103659,6.66304348 L35.7103659,3.33695652 C35.7103659,1.10869565 33.7174797,0 31.7353659,0 Z M33.2865854,6.66304348 C33.2865854,7.35869565 32.5109756,7.7173913 31.7461382,7.7173913 C30.9705285,7.7173913 30.1949187,7.36956522 30.1949187,6.66304348 L30.1949187,3.33695652 C30.1949187,2.61956522 30.9489837,2.23913043 31.7030488,2.23913043 C32.4894309,2.23913043 33.2865854,2.58695652 33.2865854,3.33695652 L33.2865854,6.66304348 Z M44.3605691,3.33695652 C44.3067073,1.05434783 42.7770325,0.141304348 40.8056911,0.141304348 L36.9815041,0.141304348 L36.9815041,9.86956522 L39.4268293,9.86956522 L39.4268293,6.77173913 L39.8577236,6.77173913 L42.0768293,9.85869565 L45.0930894,9.85869565 L42.4861789,6.52173913 C43.6495935,6.15217391 44.3605691,5.14130435 44.3605691,3.33695652 Z M40.8487805,4.65217391 L39.4268293,4.65217391 L39.4268293,2.43478261 L40.8487805,2.43478261 C42.3784553,2.43478261 42.3784553,4.65217391 40.8487805,4.65217391 Z" transform="translate(1 3)"></path></svg>') center/contain no-repeat !important;
+	width: 75px !important;
+	height: 21px !important;
+	display: inline !important;
+	position: absolute !important;
+	top: unset !important;
+	left: unset !important;
+	bottom: unset !important;
+	right: unset !important;
+	opacity: 1 !important;
+	padding: 0 !important;
+	margin: 0 !important;
+	visibility: visible !important;
+	transform: unset !important;
+	animation: unset !important;
+	scale: 1.15;
+}
+
+html:only-child > head + body div.typeWindows_e41dab.titleBar__710b0 > div.wordmark__5b8c9 > * {
+	display: none !important;
+}
+
+ .appMount_c99875 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), linear-gradient(128.92deg, rgb(14, 182, 191) 3.94%, rgb(76, 12, 224) 26.1%, rgb(162, 8, 167) 39.82%, rgb(155, 83, 255) 56.89%, rgb(33, 138, 224) 76.45%);
+	background-size: cover;
+}
+
+
+.typeWindows_e41dab,
+.bg__12180,
+.app_de4237,
+.wrapper__216eb,
+.sidebar_e031be,
+.panels__58331,
+.chat__52833,
+.channelTextArea_c2094b,
+.theme-dark .form_d8a4a1:after,
+.theme-dark .form_d8a4a1:before {
+	background: transparent;
+}
+
+
+.theme-dark .container__7e23c {
+	background-color: rgba(0, 0, 0, 0.4);
+}
+.container_e1958d,
+.theme-dark .container_debb33 {
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+.button_b82d53.buttonColor__7bad9,
+.button_b82d53.buttonColor__7bad9:hover {
+	background-color: rgba(255, 255, 255, 0.1);
+}
+
+.childWrapperNoHoverBg__7e8f1 {
+	background-color: rgba(255, 255, 255, 0.1);
+}
+
+.theme-dark .themed_b152d4 {
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+.searchBar__5a20a {
+	background-color: rgba(255, 255, 255, 0.05);
+}
+
+.container__26baa {
+	--__header-bar-background: transparent;
+}
+
+.chatContent_f087cb {
+	background-color: transparent;
+}
+
+.themedBackground__3a4c0 {
+	background-color: rgba(255, 255, 255, 0.05);
+}
+
+.modeSelected__473f1 .link_ddbb36, .modeSelected__473f1:hover .link_ddbb36 {
+	background-color: rgba(255, 255, 255, 0.1);
+}
+
+.scroller_e412fe::-webkit-scrollbar-thumb{
+	background-color: rgb(135, 219, 223);
+}
+
+.scroller_e412fe::-webkit-scrollbar-track{
+	background-color: rgba(255, 255, 255, 0.15);
+}
+
+.container_f79ab4,
+.member_b44d5d,
+.members__573eb {
+	background-color: transparent;
+}
+
+.scrollerBase_f742b2::-webkit-scrollbar-thumb{
+	background-color: rgb(145, 191, 228);
+}
+
+.folder__17546,
+.folder__17546:hover	{
+	background-color: rgb(68, 128, 221);
+}
+
+.expandedFolderBackground_b1385f {
+	background-color: rgba(255, 255, 255, 0.1);
+}
+
+	/*	ЛС	*/
+
+
+.privateChannels__9b518 {
+	background-color: rgb(0, 0, 0, 0.4);
+}
+
+.searchBar__621ec .searchBarComponent__8f95f {
+	background-color: rgba(255, 255, 255, 0.1);
+}
+
+.selected__37292 {
+	background-color: rgba(255, 255, 255, 0.15);
+}
+
+
+.theme-dark .scroller__89969,
+.container_bd15da,
+.nowPlayingColumn_b025fe {
+	background-color: transparent
+}
+
+.interactive__3e804:hover {
+	background-color: rgba(255, 255, 255, 0.1);
+}
+
+.peopleColumn__0c784,
+.container__3673d {
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+.content__01e65  {
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+.circleIconButton__05cf2 {
+	background-color: rgba(255, 255, 255, 0.1);
+}
+
+.searchBar__310d8 {
+	background-color: rgba(255, 255, 255, 0.1);
+}
+
+/*	Setting	*/
+
+.contentRegionShownSidebar__9d1b9,
+.layer_f7d46a,
+.sidebarRegion__36437,
+.standardSidebarView__12528 {
+	background: transparent;
+}
+
+.contentRegion__08eba {
+	background: rgb(0, 0, 0, 0.5);
+}
+
+.sidebarRegionScroller__8113e {
+	background: rgb(0, 0, 0, 0.6);
+}
+
+.sidebarRegionScroller__8113e::-webkit-scrollbar-thumb{
+	background-color: rgb(135, 219, 223);
+}
